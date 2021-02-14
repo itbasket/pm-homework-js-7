@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+}
+
+.userLogin {
+    text-align: center;
+}
+
+.userLogin a {
+    text-decoration: none;
+    color: #000;
+}
+
+.userAvatar {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.userAvatar img {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.userError {
+    color: red;
+}
+
+/*# sourceMappingURL=/styles.6145e9cd.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Title</title>
+</head>
+<body>
+    <form class="searchForm" autocomplete="off">
+        <input type="text" class="searchInput" placeholder="Enter a username...">
+        <div class="userInfo hidden">
+            <h1 class="userLogin"></h1>
+            <div class="userAvatar"></div>
+
+            <div class="container">
+                <div>
+                    <h4>Repos</h4>
+                    <div class="userRepos">
+
+                    </div>
+                </div>
+                <div>
+                    <h4>Followers</h4>
+                    <div class="userFollowers">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="userError hidden">No such user</div>
+    </form>
+
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
